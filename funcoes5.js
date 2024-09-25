@@ -29,11 +29,11 @@ function processarPedido(id, item1, item2, item3) {
     console.log('O total do pedido é: ' + totalPedido);
 };
 
-let retornoDaFuncao = processarPedido(
-    pedido.id,
-    pedido.lanche,
-    pedido.batataFrita,
-    pedido.suco
-);
+ let retornoDaFuncao = processarPedido(
+     pedido.id,
+     pedido.lanche,
+     pedido.batataFrita,
+     pedido.suco
+ );
 
 console.log(retornoDaFuncao);
